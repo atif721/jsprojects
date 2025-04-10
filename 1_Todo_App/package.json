@@ -3,12 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://atif721.github.io/jsprojects",
+  "homepage": "https://atif721.github.io/jsprojects/1TodoApp",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^5.3.5",
