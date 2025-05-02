@@ -78,3 +78,62 @@
   cursor: pointer;
   z-index: 1;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding-top: 10%;
+    padding-left: 5%;
+  }
+
+  .container h1 {
+    font-size: 28px;
+  }
+
+  .container button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  .notes_container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .note_wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  .input_box {
+    min-width: 100%;
+    min-height: 120px;
+    padding: 15px;
+  }
+
+  .delete_img {
+    width: 25px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container h1 {
+    font-size: 24px;
+  }
+
+  .container button {
+    font-size: 0.8rem;
+    padding: 8px 15px;
+  }
+
+  .input_box {
+    min-height: 100px;
+    padding: 10px;
+  }
+
+  .delete_img {
+    width: 20px;
+    height: 16px;
+  }
+}
